@@ -1,0 +1,25 @@
+{
+  "name": "gwptheme",
+  "version": "1.0.0",
+  "description": "Before starting docker container you have to build it. Run the command `docker build -t gerbrunn .` maybe you would need to add `sudo` before it.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.itinius.de:gerbrunn/GBWPTheme.git"
+  },
+  "dependencies" : {
+    "autoprefixer": "^7.1.6",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-nunjucks": "*",
+    "uikit": "^3.0.0-beta.34"
+  },
+  "author": "",
+  "license": "ISC"
+}
